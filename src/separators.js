@@ -1,6 +1,6 @@
 'use strict';
 
-function formatNumber( num ) { 
+function thousands_separators(num){ 
     var decimalPart = ''; 
     num = num.toString();
     if ( num.indexOf( '.' ) != -1 ) { 
